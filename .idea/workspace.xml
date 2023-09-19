@@ -9,15 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e7ddd6a-0d5c-4c7d-98ac-63ec319b3177" name="Changes" comment="Subject">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/simple/simpletud/MultiplicationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/simple/simpletud/Mutiple/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/simple/simpletud/TestTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/multipication.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/subjects_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sit/int202/simple/simpletud/SubjectListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sit/int202/simple/simpletud/SubjectListServlet.java" afterDir="false" />
-    </list>
+    <list default="true" id="7e7ddd6a-0d5c-4c7d-98ac-63ec319b3177" name="Changes" comment="Subject" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -268,7 +260,7 @@
       <workItem from="1693896104317" duration="7733000" />
       <workItem from="1694507153177" duration="1302000" />
       <workItem from="1694735392050" duration="1033000" />
-      <workItem from="1695106586766" duration="6109000" />
+      <workItem from="1695106586766" duration="6412000" />
     </task>
     <task id="LOCAL-00001" summary="Subject">
       <option name="closed" value="true" />
@@ -286,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693897509796</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Subject">
+      <option name="closed" value="true" />
+      <created>1695114174012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695114174012</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Subject">
+      <option name="closed" value="true" />
+      <created>1695114179317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695114179317</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
