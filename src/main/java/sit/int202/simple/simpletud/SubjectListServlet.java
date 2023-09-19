@@ -14,11 +14,24 @@ import java.util.List;
 
 @WebServlet(name = "SubjectListServlet", value = "/subjects")
 public class SubjectListServlet extends HttpServlet {
+    private long startTime;
+
+    @Override
+    public void destroy() {
+        System.out.println("Duration of SubjectList is " +
+                (System.currentTimeMillis()-startTime) + " mili seconds") ;
+    }
+
+    @Override
+    public void init() throws ServletException {
+        startTime = System.currentTimeMillis();
+    }
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         SubjectRepository sr = new SubjectRepository();
         List<Subject> subjectList = sr.findAll();
-        request.setAttribute("subject",subjectList);
+        request.setAttribute("subjects",subjectList);
         request.getRequestDispatcher("/subjects_list.jsp").forward(request,response);
         PrintWriter out = response.getWriter();
 //        out.println("<html><body>");
