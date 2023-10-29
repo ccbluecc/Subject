@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e7ddd6a-0d5c-4c7d-98ac-63ec319b3177" name="Changes" comment="Subject" />
+    <list default="true" id="7e7ddd6a-0d5c-4c7d-98ac-63ec319b3177" name="Changes" comment="Subject">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/simple/simpletud/Corse/CorseRegisterd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/simple/simpletud/Corse/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sit/int202/simple/simpletud/MultiplicationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sit/int202/simple/simpletud/MultiplicationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/favorite_subject.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/favorite_subject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/multipication.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/multipication.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +267,14 @@
       <workItem from="1693896104317" duration="7733000" />
       <workItem from="1694507153177" duration="1302000" />
       <workItem from="1694735392050" duration="1033000" />
-      <workItem from="1695106586766" duration="6412000" />
+      <workItem from="1695106586766" duration="6904000" />
+      <workItem from="1695710829750" duration="3105000" />
+      <workItem from="1695717453883" duration="49000" />
+      <workItem from="1698558609323" duration="1736000" />
+      <workItem from="1698566244453" duration="1320000" />
+      <workItem from="1698567619649" duration="149000" />
+      <workItem from="1698569956319" duration="723000" />
+      <workItem from="1698572644387" duration="3915000" />
     </task>
     <task id="LOCAL-00001" summary="Subject">
       <option name="closed" value="true" />
@@ -294,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695114179317</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Subject">
+      <option name="closed" value="true" />
+      <created>1695114309609</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695114309609</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

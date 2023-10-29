@@ -18,10 +18,16 @@
             border-spacing: 0px;
             text-align: right;
         }
+        table{
+            padding: 0px 0px 0px 0px;
+            spacing: 0px;
+            border-spacing: 0px;
+
+        }
     </style>
 </head>
 <body>
-<c:if test="${param.message == null}">
+<c:if test="${message == null}">
         <h3>Mutiple Table ${param.number}</h3>
         <h3>${param.message}</h3>
     <hr>
@@ -30,7 +36,15 @@
             <td colspan="5">Multipication Table of ${param.number} </td>
         </tr>
         <c:forEach begin="1" end="24" var="n">
-        <tr>
+            <c:choose >
+                <c:when test="${n%2 == 0}">
+                    <c:set var="bg" scope="page" value="lightgray"/>
+                </c:when>
+                <c:otherwise>
+                    <c:set var="bg" scope="page" value="gray"/>
+                </c:otherwise>
+            </c:choose>
+        <tr style="background-color: ${bg}">
             <td>${param.number}</td>
             <td> x </td>
             <td> </td>
@@ -42,7 +56,7 @@
         </c:forEach>
     </table>
     </c:if>
-    <c:if test="${param.message != null}">
+    <c:if test="${message != null}">
     <h4>Error:: <hr>
         ${requestScope.message} <span style="color: red">(${param.number})</span>
     </h4>

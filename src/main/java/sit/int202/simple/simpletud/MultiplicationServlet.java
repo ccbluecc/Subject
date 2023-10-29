@@ -13,7 +13,7 @@ public class MultiplicationServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String number = req.getParameter("number");
-        if(number == null || number.length() == 0 || isNumber(number)){
+        if(number == null || number.length() == 0 || !isNumber(number)){
             req.setAttribute("message", "Invalid number or null parameter");
         }
         req.setAttribute("number", number);
